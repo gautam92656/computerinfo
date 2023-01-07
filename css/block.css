@@ -83,7 +83,7 @@ img {
 
 @media only screen and (max-width: 992px) {
     body {
-        background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(252, 251, 251, 0.6)) 100%, url("/dreamstime_m_87808373.webp");
+        background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(252, 251, 251, 0.6)) 100%, url("https://gautam92656.github.io/computerinfo/dreamstime_m_87808373.webp");
     }
 
     /* h1 {
@@ -105,17 +105,12 @@ img {
         align-items: center;
     }
 
-     .sec1,
-    .sec2,
-    .sec3 {
-        margin: 20px;
-    } 
 
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1299px) {
     body {
-        background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(252, 251, 251, 0.6)) center/cover, url("/dreamstime_m_87808373.webp") center/cover;
+        background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(252, 251, 251, 0.6)) center/cover, url("https://gautam92656.github.io/computerinfo/dreamstime_m_87808373.webp") center/cover;
         width: 100%;
         height: 100%;
         object-fit: fill;
@@ -136,7 +131,7 @@ img {
 
 @media only screen and (max-width: 992px) and (min-width: 600px) {
     body {
-        background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(252, 251, 251, 0.6)) center, url("/dreamstime_m_87808373.webp") center;
+        background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(252, 251, 251, 0.6)) center, url("https://gautam92656.github.io/computerinfo/dreamstime_m_87808373.webp") center;
     }
 
     .container-fluid {
