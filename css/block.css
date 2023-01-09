@@ -21,7 +21,6 @@ h1 {
     font-size: 70px;
     margin: 20px;
     color: #010101;
-    letter-spacing: 5px;
 }
 
 .img1sec1,
@@ -48,9 +47,9 @@ img {
 .text2,
 .text3 {
     /* height: 450px; */
-    font-size: 20px;
-    font-weight: 540;
-    margin-bottom: 80px;
+     font-size: 20px;
+     font-weight: 540; 
+    /* margin-bottom: 80px; */
 }
 
 .sum1,
@@ -63,8 +62,9 @@ img {
 .sec1,
 .sec2,
 .sec3 {
+    box-shadow: 1px 1px 5px 1px #141313;
     position: relative;
-    text-align: justify;
+    text-align: justify; 
     border: 0 solid #191717;
     padding: 20px;
     margin-top: 70px;
@@ -77,8 +77,8 @@ img {
 .sec1:hover,
 .sec2:hover,
 .sec3:hover {
-    box-shadow: 2px 2px 15px 2px #141313;
-    padding: 30px;
+    box-shadow: 3px 3px 20px 3px #141313;
+    padding: 25px; 
 }
 
 @media only screen and (max-width: 992px) {
@@ -108,6 +108,8 @@ img {
 
 }
 
+
+
 @media only screen and (min-width: 992px) and (max-width: 1299px) {
     body {
         background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(252, 251, 251, 0.6)) center/cover, url("https://gautam92656.github.io/computerinfo/dreamstime_m_87808373.webp") center/cover;
@@ -121,10 +123,11 @@ img {
         justify-content: center;
     }
 
-    .sec1,
+ .sec1,
 .sec2,
 .sec3 {
     margin: 30px;
+    width: 500px;
 }
 
 }
@@ -151,6 +154,22 @@ img {
 
 }
 
+@media only screen and (min-width: 1300px) {
+    
+    body {
+        background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(252, 251, 251, 0.6)) 100%, url("https://gautam92656.github.io/computerinfo/dreamstime_m_87808373.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec1,
+    .sec2,
+    .sec3 {
+        margin: 30px;
+        width: 500px;
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
     .container-fluid {
         /* width: 100%; */
@@ -165,8 +184,12 @@ img {
     }
 }
 
+summary{
+    cursor:pointer;
+}
+/* 
 details {
-    /* position: absolute; */
+    /* position: absolute; 
     display: flex;
     position: sticky;
 
@@ -177,4 +200,4 @@ summary {
     padding: 15px 30px;
     width: 70px;
     border-radius: 20px;
-}
+} */
